@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>患者预约助手</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🦷 患者预约助手</h1>
+        </header>
+        
+        <div class="form-section">
+            <div class="input-group" style="display: none;">
+                <label for="clinicId">诊所ID:</label>
+                <input type="text" id="clinicId" value="0cdc709140b545958002ce2fe64de3f1" placeholder="请输入诊所ID">
+            </div>
+            
+            <div class="input-group">
+                <label for="currentDate">就诊日期:</label>
+                <div class="date-input-wrapper">
+                    <input type="text" id="currentDate" placeholder="请选择日期" readonly>
+                    <span class="calendar-icon">📅</span>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label for="appointmentDate">预约日期:</label>
+                <div class="date-input-wrapper">
+                    <input type="text" id="appointmentDate" placeholder="请选择日期" readonly>
+                    <span class="calendar-icon">📅</span>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label for="doctorName">医生姓名:</label>
+                <input type="text" id="doctorName" value="刘雯婧" placeholder="请输入医生姓名">
+            </div>
+        </div>
+        
+        <div class="button-section">
+            <button id="processAppointmentsBtn" class="btn btn-success">一键预约</button>
+        </div>
+        
+        <div class="status-section">
+            <div id="status" class="status"></div>
+        </div>
+        
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <h3>预约详情:</h3>
+            <div id="results" class="results"></div>
+        </div>
+        
+        <!-- 日历选择器 -->
+        <div id="calendar" class="calendar-popup" style="display: none;">
+            <div class="calendar-header">
+                <button class="calendar-nav" id="prevMonth">&lt;</button>
+                <span id="calendarTitle"></span>
+                <button class="calendar-nav" id="nextMonth">&gt;</button>
+            </div>
+            <div class="calendar-weekdays">
+                <div>日</div>
+                <div>一</div>
+                <div>二</div>
+                <div>三</div>
+                <div>四</div>
+                <div>五</div>
+                <div>六</div>
+            </div>
+            <div id="calendarDays" class="calendar-days"></div>
+            <div class="calendar-footer">
+                <button id="todayBtn" class="today-btn">Today</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

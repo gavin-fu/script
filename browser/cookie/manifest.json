@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "复制 Cookie 插件",
+  "version": "1.0",
+  "description": "复制当前网站的 Cookie",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "clipboardWrite",
+    "scripting"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

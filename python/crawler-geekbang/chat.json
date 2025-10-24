@@ -1,0 +1,197 @@
+{
+  "code": 0,
+  "data": {
+    "id": "680079",
+    "time": "13:57",
+    "type": "ecology",
+    "favorite_id": 0,
+    "discussion_number": 1,
+    "column_title": "告别低效工作，与ChatGPT一起开启高产模式",
+    "rights": true,
+    "show": true,
+    "rich_type": 2,
+    "pid": 100593501,
+    "sku": 100593501,
+    "action": "onboard",
+    "score": 1690196492,
+    "is_required": true,
+    "uri": "/column/article/680079",
+    "column_type": 42,
+    "enterprise_id": "0",
+    "node_type": 42,
+    "published": 0,
+    "art_status": 1,
+    "sku_status": 1,
+    "is_sell": 0,
+    "name": "",
+    "product_type": "c42",
+    "article_source": 2,
+    "article_vendor_id": 13835,
+    "author": {
+      "name": "常亚南",
+      "avatar": "https://static001.geekbang.org/img/uta/cmg/33523a1e319e009332466a4688078759.jpeg",
+      "info": "办公软件应用专家",
+      "intro": ""
+    },
+    "article": {
+      "id": "680079",
+      "title": "第6讲：ChatGPT已过时？新必应带你走向职场智能化的新时代",
+      "content": "",
+      "content_md": "",
+      "ctime": 1690196492,
+      "poster_wxlite": "https://static001.geekbang.org/render/screen/6a/2e/6a5c35a214f431c0cdbcef49be5a512e.jpeg",
+      "cover_hidden": 0,
+      "subtitle": "",
+      "summary": "",
+      "could_preview": false,
+      "b_could_preview": false,
+      "content_json": "",
+      "content_json_short": "",
+      "inline_video": {
+        "rights": [],
+        "preview": []
+      },
+      "cover": {
+        "column_cover": "",
+        "default": "https://static001.geekbang.org/img/uta/cmg/5f39e191d1e7590b28e9f1632f27c26e.jpeg",
+        "cover_id": 0,
+        "cover_status": 0,
+        "sku_cover": {
+          "ratio_16": "",
+          "ratio_16_url": "",
+          "ratio_4": "",
+          "ratio_4_url": "",
+          "ratio_1": "",
+          "ratio_1_url": "",
+          "show_cover": 0
+        }
+      },
+      "share": {
+        "title": "",
+        "content": "",
+        "cover": "",
+        "poster": ""
+      },
+      "relation": {
+        "prev_id": "680078",
+        "prev_chapter_title": "",
+        "prev_article_title": "第5讲：国内无法使用ChatGPT？免费平替为你提供同样优质的职场AI服务",
+        "next_id": "680080",
+        "next_chapter_title": "",
+        "next_article_title": "第7讲：职场思维导图新选择：用ChatGPT提升你的工作效率"
+      }
+    },
+    "chapter": {
+      "source_id": 0,
+      "title": "",
+      "sku": "",
+      "score": "1690196492",
+      "pchapter_source_id": "0",
+      "p_chapter_title": "",
+      "chapter_status": 0
+    },
+    "audio": {
+      "url": "",
+      "download_url": "",
+      "size": 0,
+      "title": "",
+      "time": "",
+      "md5": "",
+      "dubber": "",
+      "id": "0",
+      "status": 1
+    },
+    "video": {
+      "id": "",
+      "md5": "",
+      "url": "",
+      "cover": {
+        "type": 0,
+        "id": 0,
+        "url": ""
+      },
+      "width": 0,
+      "height": 0,
+      "size": 0,
+      "time": "",
+      "hls_medias": [
+        {
+          "quality": "hd",
+          "size": 380729190,
+          "url": "https://1253359580.vod2.myqcloud.com/9ab8f68bvodcq1253359580/85aca6623270835008912964460/NrffEqSQ3b0A.mp4?t=6762bcef&rlimit=5&sign=42605f5bcf555b413b855791b91b1972"
+        }
+      ],
+      "hls_vid": "",
+      "version": 0,
+      "medias": null,
+      "media_open": "",
+      "could_preview": 0,
+      "preview": {
+        "duration": 837,
+        "medias": [
+          {
+            "quality": "hd",
+            "size": 380729190,
+            "url": "https://1253359580.vod2.myqcloud.com/9ab8f68bvodcq1253359580/85aca6623270835008912964460/NrffEqSQ3b0A.mp4?t=6762bcef&rlimit=5&sign=42605f5bcf555b413b855791b91b1972"
+          }
+        ]
+      },
+      "subtitles": {
+        "rights": null,
+        "preview": null
+      },
+      "status": 1
+    },
+    "files": [],
+    "extra": {
+      "process": {
+        "article_id": "680079",
+        "learn_percent": 100,
+        "article_offset": {
+          "cur_offset": 0,
+          "max_offset": 0,
+          "length": 0,
+          "version": 0,
+          "process": 0,
+          "learn_time": 0,
+          "learn_status": 0
+        },
+        "audio_offset": {
+          "cur_offset": 0,
+          "max_offset": 0,
+          "length": 0,
+          "version": 0,
+          "process": 0,
+          "learn_time": 0,
+          "learn_status": 0
+        },
+        "video_offset": {
+          "cur_offset": 2,
+          "max_offset": 837,
+          "length": 837,
+          "version": 1729772187,
+          "process": 100,
+          "learn_time": 874,
+          "learn_status": 1
+        }
+      },
+      "is_last": false,
+      "fav": {
+        "has_done": false,
+        "total_count": 0,
+        "fav_id": 0,
+        "fav_type": 1
+      },
+      "IsShow": false,
+      "attachments": []
+    },
+    "anyread_total": 0,
+    "anyread_used": 0,
+    "anyread_hit": false
+  },
+  "error": {},
+  "extra": {
+    "cost": 0.569010629,
+    "request-id": "00ea2d1430894ed9823d23041f09c3db@2@es"
+  }
+}
